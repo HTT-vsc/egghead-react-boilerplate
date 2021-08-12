@@ -9,10 +9,9 @@ export default class DefaultErrorBoundary extends React.Component {
   static getDerivedStateFromError() {
     return { isError: true }
   }
-  static get propTypes() {
-    return {
-      children: PropTypes.node,
-    }
+
+  static propTypes = {
+    children: PropTypes.node.isRequired,
   }
 
   render() {
