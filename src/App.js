@@ -3,7 +3,7 @@ import { hot } from 'react-hot-loader'
 
 const Warning = React.lazy(() => import('./Warning'))
 
-const a = 'A'
+const a = 'Ad'
 
 class App extends React.Component {
   state = {
